@@ -7,13 +7,15 @@
 // *** YOUR CODE HERE *** //
 const generateRange = (min, max, step) => {
     let numArray = []
-    if (!(typeof min === "number" || typeof max === "number" || typeof step === "number")){
+    if (!( (typeof min === "number") && (typeof max === "number" ) &&  (typeof step === "number") )){
         return null
     } else {
-       
+        for(let i = min; i <= max; i += step){
+            numArray.push(i)  
+          }
     }
 
-    numArray.push(max)
+    
 
     return numArray
 }
