@@ -7,13 +7,12 @@
 // *** YOUR CODE HERE *** //
 function generateRange(min,max,step){
   let myArray = [];
-  if(min <= max){
+  do {
     myArray.push(min);
-    min=min+step;
-  }
-  else{
-    return myArray;
-  }
+    min = min + step;
+  } while (min <= max);
+
+  return myArray;
 }
 
 
