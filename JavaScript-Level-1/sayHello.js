@@ -6,5 +6,4 @@
 
 // *** YOUR CODE HERE *** //
 
-
 module.exports = sayHello;
