@@ -6,12 +6,10 @@
 // *** YOUR CODE HERE *** //
 
 function isItName(name){
-  if (name === "") {
-    return "Ola Universe"
-  } else {
-    return `Ola ${name}`
-  }
-  
+  if(!(typeof name === "string") || (name === "")){
+    name = "Universe"
+  } 
+  return `Ola ${name}`
 }
 
 module.exports = isItName;

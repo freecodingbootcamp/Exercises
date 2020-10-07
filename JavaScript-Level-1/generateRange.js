@@ -5,11 +5,29 @@
 // so generateRange(2, 10, 2) would return [2,4,6,8,10]
 
 // *** YOUR CODE HERE *** //
-const generateRange = (min, max, step) => {
+/*const generateRange = (min, max, step = 1) => {
     let numArray = []
     if (!( (typeof min === "number") && (typeof max === "number" ) &&  (typeof step === "number") )){
         return null
-    } else {
+    } else if (step === 0) {
+            return numArray
+    }   else {
+        for(let i = min; i <= max; i += step){
+            numArray.push(i)  
+          }
+    }
+
+    
+
+    return numArray
+}*/
+function generateRange(min, max, step = 1) {
+    let numArray = []
+    if (!( (typeof min === "number") && (typeof max === "number" ) &&  (typeof step === "number") )){
+        return null
+    } else if (step === 0) {
+            return numArray
+    }   else {
         for(let i = min; i <= max; i += step){
             numArray.push(i)  
           }
@@ -19,4 +37,5 @@ const generateRange = (min, max, step) => {
 
     return numArray
 }
+
 module.exports = generateRange;
