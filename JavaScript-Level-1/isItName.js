@@ -5,8 +5,5 @@
 
 // *** YOUR CODE HERE *** //
 
-function isItName(name){
-  return "Ola Universe"
-}
 
 module.exports = isItName;
