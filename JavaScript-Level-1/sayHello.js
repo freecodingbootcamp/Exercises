@@ -5,6 +5,9 @@
 
 
 // *** YOUR CODE HERE *** //
+const sayHello = (name) => {
+    return `Good job ${name}, you just finished your first js exercise`
+}
 
 
 module.exports = sayHello;
