@@ -5,5 +5,16 @@
 // so generateRange(2, 10, 2) would return [2,4,6,8,10]
 
 // *** YOUR CODE HERE *** //
+function generateRange(min,max,step){
+  let myArray = [];
+  if(min <= max){
+    myArray.push(min);
+    min=min+step;
+  }
+  else{
+    return myArray;
+  }
+}
+
 
 module.exports = generateRange;

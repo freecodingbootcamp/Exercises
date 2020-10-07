@@ -4,5 +4,12 @@
 
 
 // *** YOUR CODE HERE *** //
-
+function isItName(name){
+  if(name){
+    return "Ola "+name;
+  }
+  else{
+    return "Ola Universe";
+  }
+}
 module.exports = isItName;
