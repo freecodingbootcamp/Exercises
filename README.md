@@ -1,8 +1,8 @@
 # Exercises
 
-Please complete the three exercises in this repository.
+Please complete the three exercises in the JavaScript-Level-1 directory.
 
-The three exercises are in: 
+The three exercises are in the following files:
 **generateRange.js, isItName.js and sayHello.js**
 
 ### Fork the Original Repo
