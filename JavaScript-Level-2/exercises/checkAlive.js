@@ -11,6 +11,13 @@
 // NOTE: the function name is checkAlive and it takes in one
 // of type number and return a boolean.
 
-// ** CODE HERE ** //
+function checkAlive(health){
+  if (health > 0) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
 
 module.exports = checkAlive;

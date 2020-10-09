@@ -1,6 +1,9 @@
 // This exercise is from check py.checkio.org
 //
-// You are given an array with positive numbers and a number N. You should find the N-th power of the element in the array with the index N. If N is outside of the array, then return -1. Don't forget that the first element has the index 0.
+// You are given an array with positive numbers and a number N. You should find
+// the N-th power of the element in the array with the index N. If N is outside
+// of the array, then return -1. Don't forget that the first element has the
+// index 0.
 //
 // Let's look at a few examples:
 //
@@ -12,6 +15,17 @@
 // you can choose the names of the arguments.
 // Also note that the function will return a number.
 
-// ** CODE HERE ** //
+function nthPower(numArray, numIndex){
+  let sizeOfArray = numArray.length;
+  let itemAtIndex = 0;
+  
+  if(numIndex >= sizeOfArray){
+   return -1;
+ }
+ else{
+   itemAtIndex = numArray[numIndex];
+   return Math.pow(itemAtIndex, numIndex);
+ }
+}
 
 module.exports = nthPower;
