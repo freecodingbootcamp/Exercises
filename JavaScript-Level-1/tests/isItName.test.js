@@ -1,4 +1,4 @@
-const isItName = require('../isItName');
+const isItName = require('../exercises/isItName');
 
 test('Testing empty string', () => {
   expect(isItName("")).toStrictEqual("Ola Universe");

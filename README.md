@@ -1,9 +1,8 @@
 # Exercises
 
-Please complete the three exercises in the JavaScript-Level-1 directory.
+This repo contains multiple directories with exercises in them.  
 
-The three exercises are in the following files:
-**generateRange.js, isItName.js and sayHello.js**
+## How to get Started with This Repo
 
 ### Fork the Original Repo
 To complete these exercise you need to fork this repository,
@@ -58,7 +57,7 @@ You can also run in one line by adding the && in between the commands.
 
 There is a way to test your solutions to see if you implemented the functions correctly.
 
-To test if you implemented the functions correctly run the following command in the JavaScript-Level-1 directory.
+To test if you implemented the functions correctly run the following command **in the directory where you want to do the testing**.
 
     npm run test
 

@@ -3,13 +3,6 @@
 // is an empty string eg. "" or not provided at all otherwise the function returns
 // "Ola <name>"
 
-function isItName(name){
-  let empty = "";
-  if(name === empty || name === null || name === undefined){
-    return "Ola Universe";
-  }else {
-    return "Ola " + name;
-  }
-}
+// ** CODE HERE ** //
 
 module.exports = isItName;
