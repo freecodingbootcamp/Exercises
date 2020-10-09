@@ -5,19 +5,18 @@
 // so generateRange(2, 10, 2) would return [2,4,6,8,10]
 // Be aware if the step is less than 1 then return an empty array []
 
-// *** YOUR CODE HERE *** //
 function generateRange(min,max,step){
   let myArray = [];
   if(step < 1){
-    return [];
+    return myArray;
   }
 
   do {
     myArray.push(min);
     min = min + step;
   } while (min <= max);
+
   return myArray;
 }
-
 
 module.exports = generateRange;

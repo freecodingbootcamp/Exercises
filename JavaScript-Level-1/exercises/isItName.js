@@ -3,8 +3,6 @@
 // is an empty string eg. "" or not provided at all otherwise the function returns
 // "Ola <name>"
 
-
-// *** YOUR CODE HERE *** //
 function isItName(name){
   if(name){
     return "Ola "+name;
@@ -13,4 +11,5 @@ function isItName(name){
     return "Ola Universe";
   }
 }
+
 module.exports = isItName;
