@@ -1,5 +1,13 @@
 const checkAlive = require('../exercises/checkAlive');
 
-// test('generate numbers from 1 to 10 in increments of 1', () => {
-//   expect(generateRange(1, 10, 1)).toStrictEqual([1,2,3,4,5,6,7,8,9,10]);
-// });
+test('return true if health is greater than 0', () => {
+  expect(checkAlive(1)).toStrictEqual(true);
+});
+
+test('return false if health is 0', () => {
+  expect(checkAlive(0)).toStrictEqual(false);
+});
+
+test('return false if health is less than 0', () => {
+  expect(checkAlive(-4)).toStrictEqual(false);
+});
