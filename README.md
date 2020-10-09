@@ -1,10 +1,10 @@
 # Exercises
 
-This repo contains multiple directories with exercises in them.  
+This repo contains multiple directories with exercises in each one of them.  
 
 ## How to get Started with This Repo
 
-### Fork the Original Repo
+### Fork the Original (this) Repo
 To complete these exercise you need to fork this repository,
 
 ![GitHub Repo fork button](https://raw.githubusercontent.com/Team-FCB/Assets/master/forking.png)
@@ -62,3 +62,59 @@ To test if you implemented the functions correctly run the following command **i
     npm run test
 
 ![npm run test command](https://s8.gifyu.com/images/npm-run-test.gif)
+
+## To Get Updates from the Original Repo
+
+So you want to get the latest coding exercises from the original repo. Here is how you can do
+**WITHOUT** the terminal. Go on GitHub.com, login and then follow the following instructions:
+
+1.  Open your fork on GitHub.
+2.  Click on  `Pull Requests`.
+3.  Click on  `New Pull Request`. By default, GitHub will compare the original with your fork, and there shouldn’t be anything to compare if you didn’t make any changes.
+4.  Click on  `switching the base`. Now GitHub will compare your fork with the original, and you should see all the latest changes.
+5.  Click on  `Create a pull request`  for this comparison and assign a predictable name to your pull request (e.g., Update from original).
+6.  Click on  `Create pull request`.
+7.  Scroll down and click  `Merge pull request`  and finally  `Confirm`  merge. If your fork didn’t have any changes, you will be able to merge it automatically.
+- [Original Stackoverflow Answer](https://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository#:~:text=Open%20your%20fork%20on%20GitHub,didn%27t%20make%20any%20changes.)
+
+Once you have done so you need you need to merge your branch (cohort_#_name) with the newly updated main branch.
+
+### Merge Main with You Custom Branch
+
+Run the following commands:
+
+ 1. `git checkout main`
+
+You might have to add, commit, push your changes on the current branch before you can switch to main.
+
+2. `git pull origin main`
+
+This will pull the new changes that you pulled from the original repo to the main branch on your local computer.
+
+3. `git checkout [cohort_#_name]`
+
+Let's switch back to our other branch. Make sure to replace `[cohort_#_name]` correct branch name.
+
+4. `git merge main`
+
+This is the actual merge command. You will most likeley have some conflicts.
+
+![mege conflict screenshot](https://raw.githubusercontent.com/Team-FCB/Assets/master/merge-conflict.png)
+
+Go ahead and resolve them. Open your favorite code editor and open the folder you are working on.  Then find the files where there is a conflict and resolve them by picking either blue or pink (I think it's pink).
+
+![resolving merge conflict](https://raw.githubusercontent.com/Team-FCB/Assets/master/conflict-resolve.png)
+
+Once you have resolved all the conflicts in all the files. You can push your changes back up.
+
+So for the final step just run the following commands:
+
+    git add .
+    git commit -m "YOUR MESSAGE HERE"
+    git push origin [BRANCH NAME HERE, NOT MAIN]
+
+You might have to enter your github credentials.
+
+And that's it! You have the latest and greatest code bases along with your changes.
+
+![Jim Carrey being Jim Carrey](https://media.giphy.com/media/itDBteCsTFSVO/giphy.gif)
