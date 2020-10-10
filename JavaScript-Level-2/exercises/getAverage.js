@@ -11,7 +11,6 @@
 // You will need to round the number down. Do a google search for
 // "round down number javascript"
 
-<<<<<<< HEAD
 function getAverage(scoreArray){
   let scoreSum = 0;
   let scoreItems = scoreArray.length;
@@ -22,10 +21,5 @@ function getAverage(scoreArray){
 
   return Math.floor(scoreSum/scoreItems);
 }
-=======
-// sum of all the elements / the number of elements
-
-// ** CODE HERE ** //
->>>>>>> main
 
 module.exports = getAverage;
