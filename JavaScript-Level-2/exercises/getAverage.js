@@ -7,9 +7,11 @@
 // The array will never be empty.
 //
 // Note: The name of the function will be getAverage.
-// It will take in one argument of type array and it will return number.
+// It will take in one argument of type array and it will return a number.
 // You will need to round the number down. Do a google search for
 // "round down number javascript"
+
+// sum of all the elements / the number of elements
 
 // ** CODE HERE ** //
 
