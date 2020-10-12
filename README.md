@@ -79,7 +79,8 @@ So you want to get the latest coding exercises from the original repo. Here is h
 	6. You want to select your repo and your custom branch on the left and the original repo with main branch on the right
 		7. ![select source and destination pull request](https://raw.githubusercontent.com/Team-FCB/Assets/master/Step-4-Source-Destination.png)
 5.  Click on  `Create a pull request`  for this comparison and assign a predictable name to your pull request (e.g., Update from original).
-6.  Click on  `Create pull request`.
+6.  Click on  
+`Create pull request`.
 7.  Scroll down and click  `Merge pull request`  and finally  `Confirm`  merge. If your fork didn’t have any changes, you will be able to merge it automatically.
 - [Original Stackoverflow Answer](https://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository#:~:text=Open%20your%20fork%20on%20GitHub,didn%27t%20make%20any%20changes.)
 
