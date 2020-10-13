@@ -12,11 +12,23 @@
 // array = [1, 2, 3] and N = 3,but N is outside of the array,
 // so the result is -1.
 
+
 // NOTE: The function name will be nthPower,
 // it will take in two arguments, an array and a number.
 // you can choose the names of the arguments.
 // Also note that the function will return a number.
 
-// ** CODE HERE ** //
+function nthPower(numArray, numIndex){
+  let sizeOfArray = numArray.length;
+  let itemAtIndex = 0;
+
+  if(numIndex >= sizeOfArray){
+   return -1;
+ }
+ else{
+   itemAtIndex = numArray[numIndex];
+   return Math.pow(itemAtIndex, numIndex);
+ }
+}
 
 module.exports = nthPower;
