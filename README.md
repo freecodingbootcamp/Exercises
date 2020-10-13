@@ -70,10 +70,17 @@ So you want to get the latest coding exercises from the original repo. Here is h
 
 1.  Open your fork on GitHub.
 2.  Click on  `Pull Requests`.
+	3. ![Pull request on GitHub ](https://raw.githubusercontent.com/Team-FCB/Assets/master/Step-1-pull-requests.png)
 3.  Click on  `New Pull Request`. By default, GitHub will compare the original with your fork, and there shouldn’t be anything to compare if you didn’t make any changes.
+	4. ![New pull request](https://raw.githubusercontent.com/Team-FCB/Assets/master/Step-2-New-Pull-Request.png)
 4.  Click on  `switching the base`. Now GitHub will compare your fork with the original, and you should see all the latest changes.
+	5. Here you might have to click on compare across forks
+		6. ![fork acrosss forks link](https://raw.githubusercontent.com/Team-FCB/Assets/master/Step-3-New-Compare-Across-Forks.png)
+	6. You want to select your repo and your custom branch on the left and the original repo with main branch on the right
+		7. ![select source and destination pull request](https://raw.githubusercontent.com/Team-FCB/Assets/master/Step-4-Source-Destination.png)
 5.  Click on  `Create a pull request`  for this comparison and assign a predictable name to your pull request (e.g., Update from original).
-6.  Click on  `Create pull request`.
+6.  Click on  
+`Create pull request`.
 7.  Scroll down and click  `Merge pull request`  and finally  `Confirm`  merge. If your fork didn’t have any changes, you will be able to merge it automatically.
 - [Original Stackoverflow Answer](https://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository#:~:text=Open%20your%20fork%20on%20GitHub,didn%27t%20make%20any%20changes.)
 
