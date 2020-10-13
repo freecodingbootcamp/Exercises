@@ -8,8 +8,13 @@
 // name + " plays banjo"
 // name + " does not play banjo"
 
-
-
-// ** CODE HERE ** //
+function banjo(name){
+  if(name[0] == "R" || name[0] == "r"){
+    return name + " plays banjo"
+  }
+  else {
+    return name + " does not play banjo"
+  }
+}
 
 module.exports = banjo;
