@@ -1,4 +1,4 @@
-const summation = require('../exercises/summation');
+const summation = require('../exercises/5_summation');
 
 test('argument is 2', () => {
   expect(summation(2)).toStrictEqual(3);

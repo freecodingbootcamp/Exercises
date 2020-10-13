@@ -1,4 +1,4 @@
-const cycling = require('../exercises/cycling');
+const cycling = require('../exercises/3_cycling');
 
 test('3 hours equals 1 liter of water', () => {
   expect(cycling(3)).toStrictEqual(1);

@@ -1,4 +1,4 @@
-const doubleInteger = require('../exercises/doubleInteger');
+const doubleInteger = require('../exercises/1_doubleInteger');
 
 test('return 4 when argument is 2', () => {
   expect(doubleInteger(2)).toStrictEqual(4);

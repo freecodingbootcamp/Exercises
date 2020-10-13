@@ -1,4 +1,4 @@
-const banjo = require('../exercises/banjo');
+const banjo = require('../exercises/2_banjo');
 
 test('Richard plays banjo', () => {
   expect(banjo("Richard")).toStrictEqual("Richard plays banjo");

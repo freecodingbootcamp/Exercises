@@ -1,4 +1,4 @@
-const inverse = require('../exercises/inverse');
+const inverse = require('../exercises/4_inverse');
 
 test('test case 1, no negatives', () => {
   expect(inverse([1,2,3,4,5])).toStrictEqual([-1,-2,-3,-4,-5]);
