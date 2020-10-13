@@ -84,6 +84,12 @@ So you want to get the latest coding exercises from the original repo. Here is h
 7.  Scroll down and click  `Merge pull request`  and finally  `Confirm`  merge. If your fork didn’t have any changes, you will be able to merge it automatically.
 - [Original Stackoverflow Answer](https://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository#:~:text=Open%20your%20fork%20on%20GitHub,didn%27t%20make%20any%20changes.)
 
+Make sure you cd into any new exercise folder and run the following three commands:
+
+`npm install jest-cli --save
+ npm install jest --save
+ npm install`
+
 Once you have done so you need you need to merge your branch (cohort_#_name) with the newly updated main branch.
 
 ### Merge Main with You Custom Branch
