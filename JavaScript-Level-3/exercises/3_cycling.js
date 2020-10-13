@@ -11,8 +11,8 @@
 // time = 6.7---> litres = 3
 // time = 11.8--> litres = 5
 
-
-
-// ** CODE HERE ** //
+function cycling(time){
+  return Math.floor(0.5*time);
+}
 
 module.exports = cycling;
