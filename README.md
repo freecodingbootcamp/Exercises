@@ -86,9 +86,9 @@ So you want to get the latest coding exercises from the original repo. Here is h
 
 Make sure you cd into any new exercise folder and run the following three commands:
 
-`npm install jest-cli --save
- npm install jest --save
- npm install`
+`npm install jest-cli --save`
+`npm install jest --save`
+`npm install`
 
 Once you have done so you need you need to merge your branch (cohort_#_name) with the newly updated main branch.
 
